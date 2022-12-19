@@ -1,0 +1,8 @@
+[phases.setup]
+nixPkgs = ["...", "libwebp", "ffmpeg"]
+
+[phases.build]
+cmds = ['npm i']
+
+[start]
+cmd = 'node index'
